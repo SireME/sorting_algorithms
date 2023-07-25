@@ -11,7 +11,7 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *current, *linkn, *nlist;
 
-	if (*list == NULL || (*list)->next == NULL)
+	if (*list == NULL)
 		return;
 
 	nlist = *list;
