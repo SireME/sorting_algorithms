@@ -24,4 +24,8 @@ void print_list(const listint_t *list);
 /*bubble sort implememntation prototype*/
 void bubble_sort(int *array, size_t size);
 
+/*insertion sort implementation prototype*/
+void insertion_sort_list(listint_t **list);
+
+
 #endif
