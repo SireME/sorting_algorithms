@@ -30,5 +30,8 @@ void insertion_sort_list(listint_t **list);
 /*selection sort algo*/
 void selection_sort(int *array, size_t size);
 
+/*quick*/
+void quick_sort(int *array, size_t size);
+
 
 #endif
